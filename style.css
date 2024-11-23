@@ -1,0 +1,43 @@
+@charset "UFT-8";
+
+/* Wyśrodkowanie całej strony */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Kontener na zawartość strony */
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Stylowanie przycisku resetowania */
+#resetButton {
+    background-color: red; /* Czerwony kolor */
+    color: white;
+    font-size: 14px; /* Mniejszy rozmiar */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#resetButton:hover {
+    background-color: darkred;
+}
+
+/* Stylowanie reset panelu */
+#resetPanel {
+    margin-top: 30px;
+}
